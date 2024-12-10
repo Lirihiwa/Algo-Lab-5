@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="LabWork5.EdgeControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:LabWork5"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="100">
+    <Grid>
+        <Line Name="edgeLine" X1="0" Y1="0" X2="100" Y2="100" Stroke="Black" StrokeThickness="2"/>
+        <TextBlock Name="edgeTextBlock" Text="{Binding Weight}" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16" Panel.ZIndex="1"/>
+    </Grid>
+</UserControl>
